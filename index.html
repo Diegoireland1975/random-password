@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generate a <span class="accent">random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <button class="btn btn-accent" id="btn-generate">Generate passwords</button>
+        <div class="input">
+            <input type="text" id="pass-one">
+            <input type="text" id="pass-two">
+        </div>
+        <h2>Password Length:</h2>
+        <div class="choose-length">
+            <button class="sub-btn" id="sub-btn">-</button>
+            <p class="length-box" id="length-box">15</p>
+            <button class="add-btn" id="add-btn">+</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  font-family: "Inter";
+  background-color: #1f2937;
+}
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 3;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+.container p {
+  color: #d5d4d8;
+  font-weight: 400;
+}
+.accent {
+  color: #4adf86;
+  display: block;
+}
+
+.btn {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  border: 0;
+  width: 191px;
+  cursor: pointer;
+}
+
+.btn-accent {
+  background: #4adf86;
+  transition: 0.5s;
+}
+.btn-accent:hover {
+  color: #000;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #2f3e53;
+}
+
+.input input {
+  background: #273549;
+  border-radius: 6px;
+  outline: 0;
+  border: 0;
+  color: #4adf86;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+
+/* choose password length */
+.choose-length {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.length-box {
+  width: 60px;
+  background: #273549;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.add-btn,
+.sub-btn {
+  background: #4adf86;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
