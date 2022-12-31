@@ -55,9 +55,9 @@ h2 {
 }
 .input {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 2rem 0;
-  margin-top: 2rem;
   border-top: 1px solid #2f3e53;
 }
 
@@ -68,7 +68,8 @@ h2 {
   border: 0;
   color: #4adf86;
   padding: 0.5rem 1rem;
-  margin-right: 1rem;
+  margin: 1rem 0;
+  margin-right: 0.5rem;
 }
 
 /* choose password length */
